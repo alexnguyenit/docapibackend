@@ -898,3 +898,177 @@ GET /users?_start=10&_limit=10
 | Code | Description |
 | ---- | ----------- |
 | 200 |  |
+
+# ARTICLE - VOUCHER - COUPON
+
+## /ARTICLE/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/article/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /article/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/article/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /article/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/article/find?_limit=2&_start=0&_attribute=id,title&title_contains=%cải tiến%
+
+**Description:** API get list article
+
+**HTTP Request**
+`***GET*** /article/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| _limit | query |  | Yes | integer |
+| _start | query |  | Yes | integer |
+| _attribute | query |  | Yes | string |
+| title_contains | query |  | Yes | string |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/article/findOne/1
+
+**Description:** API detail Article
+
+**HTTP Request**
+`***GET*** /article/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/article/create
+
+**Description:** API add article
+
+**HTTP Request**
+`***POST*** /article/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| title | body |  | Yes | string |
+| category_id | body |  | No | number |
+| type | body |  | No | number |
+| image | body |  | No | object |
+| preview | body |  | No | string |
+| content | body |  | No | text |
+| score | body |  | No | number |
+| amount | body |  | No | number |
+| code | body |  | No | string |
+| approved_at | body |  | No | date |
+| approver_id | body |  | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/DESTROY/12
+**Method:** DELETE
+
+**Summary:** {{url}}/api/article/destroy/11
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /article/destroy/12` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /ARTICLE/UPDATE/12
+**Method:** PUT
+
+**Summary:** {{url}}/api/article/update/11
+
+**Description:** API update article
+
+**HTTP Request**
+`***PUT*** /article/update/12` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
