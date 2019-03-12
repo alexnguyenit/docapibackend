@@ -210,23 +210,23 @@ GET /users?_start=10&_limit=10
 | x-scope | header |  | Yes | string |
 | id | body |  | Yes |  |
 | firstname | body |  | Yes | string |
-| password | body |  | Yes | string |
+| password | body |  | No | string |
 | phone | body |  | Yes | string |
-| confirm | body |  | Yes | string |
-| new_password | body |  | Yes | string |
+| confirm | body |  | No | string |
+| new_password | body |  | No | string |
 | email | body |  | Yes | string |
-| lastname | body |  | Yes | string |
-| gender | body |  | Yes | number |
-| birthday | body |  | Yes | string |
-| avatar | body |  | Yes | object |
-| info | body |  | Yes | object |
-| type | body |  | Yes | number |
-| brand_id | body |  | Yes | number |
-| rank_id | body |  | Yes | number |
-| category_id | body |  | Yes | number |
-| group_id | body |  | Yes | number |
-| role_id | body |  | Yes | number |
-| rules | body |  | Yes | string |
+| lastname | body |  | No | string |
+| gender | body |  | No | number |
+| birthday | body |  | No | string |
+| avatar | body |  | No | object |
+| info | body |  | No | object |
+| type | body |  | No | number |
+| brand_id | body |  | No | number |
+| rank_id | body |  | No | number |
+| category_id | body |  | No | number |
+| group_id | body |  | No | number |
+| role_id | body |  | No | number |
+| rules | body |  | No | string |
 
 **Responses**
 
