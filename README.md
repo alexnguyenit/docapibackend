@@ -3,6 +3,7 @@
 This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
+**x-scope:** admin
 
 ## STATUS CODE
 | Code | Description |
