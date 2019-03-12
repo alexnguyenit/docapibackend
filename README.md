@@ -4,6 +4,17 @@ This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
 
+## STATUS CODE
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+| 201 | oke |
+| 204 | oke |
+| 401 |  Unauthorized   |
+| 400 |  Parameter Fail   |
+| 404 |  Not found   |
+| 500 |  Server error   |
+
 ## FILTER
 
 =: Equals
