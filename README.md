@@ -87,7 +87,8 @@ GET /users?_start=10&_limit=10
 
 # USER
 ## /USER/LOGIN
-### ***POST*** 
+
+**Method:** POST
 
 **Summary:** {{url}}/api/user/login
 
@@ -112,7 +113,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/SIGHUP
-### ***POST*** 
+
+**Method:** POST
 
 **Summary:** {{url}}/api/user/sighup
 
@@ -145,7 +147,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/LOGOUT
-### ***POST*** 
+
+**Method:** POST
 
 **Summary:** {{url}}/api/user/logout
 
@@ -168,7 +171,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/PROFILE
-### ***GET*** 
+
+**Method:** GET
 
 **Summary:** {{url}}/api/user/profile
 
@@ -191,7 +195,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/COUNT
-### ***GET*** 
+
+**Method:** GET
 
 **Summary:** {{url}}/api/user/count
 
@@ -214,7 +219,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/MODIFY
-### ***PUT*** 
+
+**Method:** PUT
 
 **Summary:** {{url}}/api/user/modify
 
@@ -257,7 +263,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/FORGOT
-### ***POST*** 
+
+**Method:** POST
 
 **Summary:** {{url}}/api/user/forgot
 
@@ -281,7 +288,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/RESET
-### ***POST*** 
+
+**Method:** POST 
 
 **Summary:** {{url}}/api/user/reset
 
@@ -307,7 +315,8 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /USER/FIND
-### ***GET*** 
+
+**Method:** GET
 
 **Summary:** {{url}}/api/user/find
 
