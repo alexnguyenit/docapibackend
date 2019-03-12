@@ -94,7 +94,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API login
 
-### HTTP Request 
+**HTTP Request**
 `***POST*** /user/login` 
 
 **Parameters**
@@ -120,7 +120,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API Sighup
 
-### HTTP Request 
+**HTTP Request**
 `***POST*** /user/sighup` 
 
 **Parameters**
@@ -154,7 +154,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API logout
 
-### HTTP Request 
+**HTTP Request**
 `***POST*** /user/logout` 
 
 **Parameters**
@@ -178,7 +178,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API profile
 
-### HTTP Request 
+**HTTP Request**
 `***GET*** /user/profile` 
 
 **Parameters**
@@ -202,7 +202,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API profile
 
-### HTTP Request 
+**HTTP Request**
 `***GET*** /user/count` 
 
 **Parameters**
@@ -226,7 +226,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API modify
 
-### HTTP Request 
+**HTTP Request**
 `***PUT*** /user/modify` 
 
 **Parameters**
@@ -270,7 +270,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API Forgot Password
 
-### HTTP Request 
+**HTTP Request**
 `***POST*** /user/forgot` 
 
 **Parameters**
@@ -295,7 +295,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API reset Password
 
-### HTTP Request 
+**HTTP Request**
 `***POST*** /user/reset` 
 
 **Parameters**
@@ -322,7 +322,7 @@ GET /users?_start=10&_limit=10
 
 **Description:** API list all User
 
-### HTTP Request 
+**HTTP Request**
 `***GET*** /user/find` 
 
 **Parameters**
