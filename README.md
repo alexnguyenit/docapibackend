@@ -218,8 +218,8 @@ GET /users?_start=10&_limit=10
 | lastname | body |  | Yes | string |
 | gender | body |  | Yes | number |
 | birthday | body |  | Yes | string |
-| avatar | body |  | Yes | string |
-| info | body |  | Yes | string |
+| avatar | body |  | Yes | object |
+| info | body |  | Yes | object |
 | type | body |  | Yes | number |
 | brand_id | body |  | Yes | number |
 | rank_id | body |  | Yes | number |
