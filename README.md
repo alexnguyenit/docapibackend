@@ -1,18 +1,6 @@
---- 
+# API LOYALTY BACKEND - CMC
 
-title: API LOYALTY BACKEND 
-
-toc_footers: 
-   - Documentation Powered by hoangnn
-
-includes: 
-   - errors 
-
-search: true 
-
---- 
-
-## Introduction 
+# Introduction 
 
 This is API DOCUMENT LOYALTY BACKEND
 
@@ -42,7 +30,7 @@ _in: Matches any value in the array of values
 
 _nin: Doesn't match any value in the array of values
 
-**Examples**
+*Examples*
 
 Find users having John as first name.
 
@@ -58,7 +46,7 @@ Find multiple news with id 3, 6, 8 GET /news?id_in=3&id_in=6&id_in=8
 
 Sort according to a specific field.
 
-**Example**
+*Example*
 
 Sort users by email.
 
