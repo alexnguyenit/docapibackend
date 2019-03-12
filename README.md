@@ -1,8 +1,5 @@
 # API LOYALTY BACKEND - CMC
 
-
-## Introduction 
-
 This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
@@ -94,13 +91,14 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| account | body |  | Yes |  |
+| password | body |  | Yes |  |
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 # /USER/SIGHUP
 ## ***POST*** 
@@ -118,13 +116,22 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| firstname | body |  | Yes |  |
+| password | body |  | Yes |  |
+| phone | body |  | Yes |  |
+| confirm | body |  | Yes |  |
+| email | body |  | Yes |  |
+| lastname | body |  | No |  |
+| brand_id | body |  | No |  |
+| rank_id | body |  | No |  |
+| category_id | body |  | No |  |
+| group_id | body |  | No |  |
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 # /USER/LOGOUT
 ## ***POST*** 
