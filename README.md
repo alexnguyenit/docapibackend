@@ -337,3 +337,29 @@ GET /users?_start=10&_limit=10
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+## /MEDIA/UPLOAD
+
+**Method:** POST
+
+**Summary:** {{url}}/api/media/upload
+
+**Description:** API upload Image
+
+**HTTP Request**
+`***POST*** /media/upload` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Content-Type | header |  | Yes | string |
+| File | formData |  | Yes | string |
+| type | formData |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
