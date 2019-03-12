@@ -641,7 +641,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 |  |
 
-# /BRAND/CREATE
+## /BRAND/CREATE
 **Method:** POST
 
 **Summary:** {{url}}/api/brand/create
