@@ -23,17 +23,29 @@ This is API DOCUMENT LOYALTY BACKEND
 **Version:** 1.0.2 
 
 # FILTER
+
 =: Equals
+
 _ne: Not equals
+
 _lt: Lower than
+
 _gt: Greater than
+
 _lte: Lower than or equal to
+
 _gte: Greater than or equal to
+
 _in: Include in array
+
 _contains: Contains
+
 _containss: Contains case sensitive
+
 _in: Matches any value in the array of values
+
 _nin: Doesn't match any value in the array of values
+
 # Examples
 Find users having John as first name.
 
