@@ -564,6 +564,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -586,6 +587,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -608,6 +610,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -630,6 +633,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -653,7 +657,16 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body |  | No | string |
+| logo | body |  | No | object |
+| description | body |  | No | string |
+| parameters | body |  | No | object |
+| address | body |  | No | string |
+| email | body |  | No | string |
+| phone | body |  | No | string |
+| status | body |  | No | number |
 
 **Responses**
 
@@ -676,6 +689,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -699,6 +713,7 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | Body | body |  | Yes |  |
 
 **Responses**
@@ -722,6 +737,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -744,6 +760,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -766,6 +783,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -788,6 +806,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -811,7 +830,20 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| Authorization | header |  | Yes | string |
+| subject | body |  | Yes | string |
+| slug | body |  | Yes | string |
+| review | body |  | Yes | string |
+| image | body |  | Yes | object |
+| content | body |  | Yes | text |
+| category_id | body |  | Yes | number |
+| parameters | body |  | Yes | object |
+| comments | body |  | Yes | object |
+| status | body |  | Yes | number |
+| published_at | body |  | Yes | date |
+| evicted_at | body |  | Yes | date |
+| approved_at | body |  | Yes | date |
+| approver_id | body |  | Yes | number |
 
 **Responses**
 
@@ -834,6 +866,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -857,6 +890,7 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | Body | body |  | Yes |  |
 
 **Responses**
