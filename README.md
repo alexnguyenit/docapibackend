@@ -339,7 +339,6 @@ GET /users?_start=10&_limit=10
 | 200 | oke |
 
 ## /MEDIA/UPLOAD
-
 **Method:** POST
 
 **Summary:** {{url}}/api/media/upload
@@ -355,6 +354,7 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
 | Content-Type | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | File | formData |  | Yes | string |
 | type | formData |  | Yes | string |
 
@@ -380,6 +380,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -388,7 +389,6 @@ GET /users?_start=10&_limit=10
 | 200 |  |
 
 ## /PRODUCT/COUNT
-
 **Method:** GET
 
 **Summary:** {{url}}/api/product/count
@@ -403,6 +403,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -411,7 +412,6 @@ GET /users?_start=10&_limit=10
 | 200 |  |
 
 ## /PRODUCT/FIND
-
 **Method:** GET
 
 **Summary:** {{url}}/api/product/find
@@ -426,6 +426,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -434,7 +435,6 @@ GET /users?_start=10&_limit=10
 | 200 |  |
 
 ## /PRODUCT/FINDONE/1
-
 **Method:** GET
 
 **Summary:** {{url}}/api/product/findOne/1
@@ -449,6 +449,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -456,7 +457,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 |  |
 
-# /PRODUCT/CREATE
+## /PRODUCT/CREATE
 **Method:** POST
 
 **Summary:** {{url}}/api/product/create
@@ -472,7 +473,23 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| Authorization | header |  | Yes | string |
+| code | body |  | Yes | string |
+| title | body |  | Yes | string |
+| alias | body |  | No | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| type | body |  | No | number |
+| category | body |  | No | string |
+| brand_id | body |  | No | number |
+| status | body |  | No | number |
+| score | body |  | No | number |
+| price | body |  | No | number |
+| total | body |  | No | number |
+| selled | body |  | No | number |
+| start_date | body |  | No | date |
+| end_date | body |  | No | date |
+| image | body |  | No | object |
 
 **Responses**
 
@@ -480,7 +497,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 |  |
 
-# /PRODUCT/DESTROY/1
+## /PRODUCT/DESTROY/1
 **Method:** DELETE
 
 **Summary:** {{url}}/api/product/destroy/1
@@ -495,6 +512,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -502,7 +520,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 |  |
 
-# /PRODUCT/UPDATE/1
+## /PRODUCT/UPDATE/1
 **Method:** PUT
 
 **Summary:** {{url}}/api/product/update/1
@@ -518,6 +536,7 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | Body | body |  | Yes |  |
 
 **Responses**
