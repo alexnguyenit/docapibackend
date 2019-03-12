@@ -363,3 +363,165 @@ GET /users?_start=10&_limit=10
 | Code | Description |
 | ---- | ----------- |
 | 200 |  |
+
+## /PRODUCT/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/product/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /product/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /PRODUCT/COUNT
+
+**Method:** GET
+
+**Summary:** {{url}}/api/product/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /product/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /PRODUCT/FIND
+
+**Method:** GET
+
+**Summary:** {{url}}/api/product/find
+
+**Description:** API get list product
+
+**HTTP Request**
+`***GET*** /product/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /PRODUCT/FINDONE/1
+
+**Method:** GET
+
+**Summary:** {{url}}/api/product/findOne/1
+
+**Description:** API detail product
+
+**HTTP Request**
+`***GET*** /product/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+# /PRODUCT/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/product/create
+
+**Description:** API add product
+
+**HTTP Request**
+`***POST*** /product/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+# /PRODUCT/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/product/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /product/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+# /PRODUCT/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/product/update/1
+
+**Description:** API update product
+
+**HTTP Request**
+`***PUT*** /product/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
