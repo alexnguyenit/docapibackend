@@ -148,6 +148,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -170,6 +171,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -192,6 +194,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -215,6 +218,7 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | id | body |  | Yes |  |
 | firstname | body |  | Yes | string |
 | password | body |  | No | string |
@@ -304,6 +308,7 @@ GET /users?_start=10&_limit=10
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
