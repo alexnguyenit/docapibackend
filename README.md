@@ -43,6 +43,7 @@ _in: Matches any value in the array of values
 _nin: Doesn't match any value in the array of values
 
 **Examples**
+
 Find users having John as first name.
 
 GET /users?firstname=Tuan
@@ -52,6 +53,36 @@ Find products having a price equal or greater than 3.
 GET /products?price_gte=3
 
 Find multiple news with id 3, 6, 8 GET /news?id_in=3&id_in=6&id_in=8
+
+**Sort**
+
+Sort according to a specific field.
+
+**Example**
+
+Sort users by email.
+
+ASC: GET /user?_sort=email:ASC
+DESC: GET /user?_sort=email:DESC
+
+**Limit**
+Limit the size of the returned results.
+
+*Example*
+
+Limit the result length to 30.
+
+GET /users?_limit=30
+
+**Start**
+
+Skip a specific number of entries (especially useful for pagination).
+
+*Example*
+
+Get the second page of results.
+
+GET /users?_start=10&_limit=10
 
 # Authentication 
 
