@@ -154,7 +154,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/PROFILE
 ### ***GET*** 
@@ -177,7 +177,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/COUNT
 ### ***GET*** 
@@ -200,7 +200,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/MODIFY
 ### ***PUT*** 
@@ -243,7 +243,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/FORGOT
 ### ***POST*** 
@@ -261,13 +261,13 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| email | body |  | Yes |  |
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/RESET
 ### ***POST*** 
@@ -285,13 +285,15 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| password | body |  | Yes |  |
+| confirm | body |  | Yes |  |
+| reset_password_token | body |  | Yes |  |
 
 **Responses**
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /USER/FIND
 ### ***GET*** 
@@ -314,4 +316,4 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
