@@ -22,6 +22,29 @@ This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
 
+# FILTER
+=: Equals
+_ne: Not equals
+_lt: Lower than
+_gt: Greater than
+_lte: Lower than or equal to
+_gte: Greater than or equal to
+_in: Include in array
+_contains: Contains
+_containss: Contains case sensitive
+_in: Matches any value in the array of values
+_nin: Doesn't match any value in the array of values
+# Examples
+Find users having John as first name.
+
+GET /users?firstname=Tuan
+
+Find products having a price equal or greater than 3.
+
+GET /products?price_gte=3
+
+Find multiple news with id 3, 6, 8 GET /news?id_in=3&id_in=6&id_in=8
+
 # Authentication 
 
 |apiKey|*API Key*|
@@ -2931,5 +2954,3 @@ This is API DOCUMENT LOYALTY BACKEND
 | Code | Description |
 | ---- | ----------- |
 | 200 |  |
-
-<!-- Converted with the swagger-to-slate https://github.com/lavkumarv/swagger-to-slate -->
