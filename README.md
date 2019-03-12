@@ -7,8 +7,6 @@ This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
 
-
-# SEARCH DESCRIPTION
 ## FILTER
 
 =: Equals
@@ -210,7 +208,25 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| Body | body |  | Yes |  |
+| id | body |  | Yes |  |
+| firstname | body |  | Yes | string |
+| password | body |  | Yes | string |
+| phone | body |  | Yes | string |
+| confirm | body |  | Yes | string |
+| new_password | body |  | Yes | string |
+| email | body |  | Yes | string |
+| lastname | body |  | Yes | string |
+| gender | body |  | Yes | number |
+| birthday | body |  | Yes | string |
+| avatar | body |  | Yes | string |
+| info | body |  | Yes | string |
+| type | body |  | Yes | number |
+| brand_id | body |  | Yes | number |
+| rank_id | body |  | Yes | number |
+| category_id | body |  | Yes | number |
+| group_id | body |  | Yes | number |
+| role_id | body |  | Yes | number |
+| rules | body |  | Yes | string |
 
 **Responses**
 
