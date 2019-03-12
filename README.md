@@ -6,7 +6,7 @@ This is API DOCUMENT LOYALTY BACKEND
 
 **Version:** 1.0.2 
 
-#### FILTER
+### FILTER
 
 =: Equals
 
@@ -42,7 +42,7 @@ GET /products?price_gte=3
 
 Find multiple news with id 3, 6, 8 GET /news?id_in=3&id_in=6&id_in=8
 
-#### Sort
+### Sort
 
 Sort according to a specific field.
 
@@ -53,7 +53,7 @@ Sort users by email.
 ASC: GET /user?_sort=email:ASC
 DESC: GET /user?_sort=email:DESC
 
-#### Limit
+### Limit
 
 Limit the size of the returned results.
 
@@ -71,12 +71,11 @@ Skip a specific number of entries (especially useful for pagination).
 
 Get the second page of results.
 
-GET /users?_start=10&_limit=10
+GET /users?_start=10&_limit=10 
 
-# Authentication 
-
-# /USER/LOGIN
-## ***POST*** 
+# USER
+## /USER/LOGIN
+### ***POST*** 
 
 **Summary:** {{url}}/api/user/login
 
