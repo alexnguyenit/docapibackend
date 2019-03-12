@@ -340,6 +340,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 | oke |
 
+# MEDIA
 ## /MEDIA/UPLOAD
 **Method:** POST
 
@@ -366,6 +367,7 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 |  |
 
+# PRODUCT
 ## /PRODUCT/SCHEMA
 
 **Method:** GET
