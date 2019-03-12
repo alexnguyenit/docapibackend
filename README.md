@@ -548,3 +548,319 @@ GET /users?_start=10&_limit=10
 | Code | Description |
 | ---- | ----------- |
 | 200 |  |
+
+## /BRAND/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/brand/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /brand/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /BRAND/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/brand/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /brand/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /BRAND/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/brand/find
+
+**Description:** API get list article
+
+**HTTP Request**
+`***GET*** /brand/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /BRAND/FINDONE/2
+**Method:** GET
+
+**Summary:** {{url}}/api/brand/findOne/1
+
+**Description:** API detail Article
+
+**HTTP Request** 
+`***GET*** /brand/findOne/2` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+# /BRAND/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/brand/create
+
+**Description:** API add article
+
+**HTTP Request**
+`***POST*** /brand/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /BRAND/DESTROY/12
+**Method:** DELETE
+
+**Summary:** {{url}}/api/brand/destroy/11
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /brand/destroy/12` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /BRAND/UPDATE/12
+**Method:** PUT
+
+**Summary:** {{url}}/api/brand/update/11
+
+**Description:** API update article
+
+**HTTP Request**
+`***PUT*** /brand/update/12` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/news/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /news/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/news/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /news/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/news/find
+
+**Description:** API get list article
+
+**HTTP Request**
+`***GET*** /news/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/FINDONE/2
+**Method:** GET
+
+**Summary:** {{url}}/api/news/findOne/1
+
+**Description:** API detail Article
+
+**HTTP Request**
+`***GET*** /news/findOne/2` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/news/create
+
+**Description:** API add article
+
+**HTTP Request**
+`***POST*** /news/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/news/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /news/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
+
+## /NEWS/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/news/update/1
+
+**Description:** API update article
+
+**HTTP Request**
+`***PUT*** /news/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 |  |
