@@ -244,11 +244,11 @@ GET /users?_start=10&_limit=10
 | new_password | body |  | No | string |
 | email | body |  | Yes | string |
 | lastname | body |  | No | string |
-| gender | body |  | No | number |
-| birthday | body |  | No | string |
-| avatar | body |  | No | object |
-| info | body |  | No | object |
-| type | body |  | No | number |
+| gender | body | Giới tính người dùng với 0 là nữ và 1 là nam | No | number |
+| birthday | body | Ngày sinh của người dùng: 16/4/1991 | No | string |
+| avatar | body | Ảnh đại diện người dùng lấy từ API upload | No | object |
+| info | body | Thông tin location, address... | No | object |
+| type | body | Kiểu người dùng (1,2,3,4,5) | No | number |
 | brand_id | body |  | No | number |
 | rank_id | body |  | No | number |
 | category_id | body |  | No | number |
