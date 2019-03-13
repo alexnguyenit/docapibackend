@@ -365,7 +365,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 # PRODUCT
 ## /PRODUCT/SCHEMA
@@ -390,7 +390,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/COUNT
 **Method:** GET
@@ -413,7 +413,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/FIND
 **Method:** GET
@@ -436,7 +436,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/FINDONE/1
 **Method:** GET
@@ -459,7 +459,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/CREATE
 **Method:** POST
@@ -499,7 +499,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/DESTROY/1
 **Method:** DELETE
@@ -522,7 +522,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /PRODUCT/UPDATE/1
 **Method:** PUT
@@ -547,7 +547,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/SCHEMA
 **Method:** GET
@@ -570,7 +570,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/COUNT
 **Method:** GET
@@ -593,14 +593,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/FIND
 **Method:** GET
 
 **Summary:** {{url}}/api/brand/find
 
-**Description:** API get list article
+**Description:** API get list brand
 
 **HTTP Request**
 `***GET*** /brand/find` 
@@ -616,14 +616,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/FINDONE/2
 **Method:** GET
 
 **Summary:** {{url}}/api/brand/findOne/1
 
-**Description:** API detail Article
+**Description:** API detail brand
 
 **HTTP Request** 
 `***GET*** /brand/findOne/2` 
@@ -639,14 +639,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/CREATE
 **Method:** POST
 
 **Summary:** {{url}}/api/brand/create
 
-**Description:** API add article
+**Description:** API add brand
 
 **HTTP Request**
 `***POST*** /brand/create` 
@@ -672,7 +672,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/DESTROY/12
 **Method:** DELETE
@@ -695,14 +695,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /BRAND/UPDATE/12
 **Method:** PUT
 
 **Summary:** {{url}}/api/brand/update/11
 
-**Description:** API update article
+**Description:** API update brand
 
 **HTTP Request**
 `***PUT*** /brand/update/12` 
@@ -720,7 +720,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/SCHEMA
 **Method:** GET
@@ -743,7 +743,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/COUNT
 **Method:** GET
@@ -766,14 +766,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/FIND
 **Method:** GET
 
 **Summary:** {{url}}/api/news/find
 
-**Description:** API get list article
+**Description:** API get list news
 
 **HTTP Request**
 `***GET*** /news/find` 
@@ -789,14 +789,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/FINDONE/2
 **Method:** GET
 
 **Summary:** {{url}}/api/news/findOne/1
 
-**Description:** API detail Article
+**Description:** API detail news
 
 **HTTP Request**
 `***GET*** /news/findOne/2` 
@@ -812,14 +812,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/CREATE
 **Method:** POST
 
 **Summary:** {{url}}/api/news/create
 
-**Description:** API add article
+**Description:** API add news
 
 **HTTP Request**
 `***POST*** /news/create` 
@@ -849,7 +849,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/DESTROY/1
 **Method:** DELETE
@@ -872,14 +872,14 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /NEWS/UPDATE/1
 **Method:** PUT
 
 **Summary:** {{url}}/api/news/update/1
 
-**Description:** API update article
+**Description:** API update news
 
 **HTTP Request**
 `***PUT*** /news/update/1` 
@@ -897,7 +897,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 # ARTICLE - VOUCHER - COUPON
 
@@ -921,7 +921,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/COUNT
 **Method:** GET
@@ -943,7 +943,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/FIND
 **Method:** GET
@@ -969,7 +969,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/FINDONE/1
 **Method:** GET
@@ -991,7 +991,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/CREATE
 **Method:** POST
@@ -1009,14 +1009,14 @@ GET /users?_start=10&_limit=10
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
-| title | body |  | Yes | string |
+| title | body | Kiểu bài viết với: 0 - Là info, 1 - Là event, 2 - Là voucher, 3 - Là coupon, 4 - Là other | Yes | string |
 | category_id | body |  | No | number |
 | type | body |  | No | number |
 | image | body |  | No | object |
 | preview | body |  | No | string |
 | content | body |  | No | text |
 | score | body |  | No | number |
-| amount | body |  | No | number |
+| amount | body | Giá trị của nội dung nếu là voucher, coupon | No | number |
 | code | body |  | No | string |
 | approved_at | body |  | No | date |
 | approver_id | body |  | No | number |
@@ -1025,7 +1025,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/DESTROY/12
 **Method:** DELETE
@@ -1047,7 +1047,7 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
 
 ## /ARTICLE/UPDATE/12
 **Method:** PUT
@@ -1071,4 +1071,4 @@ GET /users?_start=10&_limit=10
 
 | Code | Description |
 | ---- | ----------- |
-| 200 |  |
+| 200 | oke |
