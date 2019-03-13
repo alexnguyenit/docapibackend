@@ -555,7 +555,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | type | body |  | No | number |
 | category | body |  | No | string |
 | brand_id | body |  | No | number |
-| status | body |  | No | number |
+| status | body | 0 - Đang xóa  1 - Đang active | No | number |
 | score | body |  | No | number |
 | price | body |  | No | number |
 | total | body |  | No | number |
@@ -738,7 +738,7 @@ alias: Thường là dạng tieu-de
 | address | body |  | No | string |
 | email | body |  | No | string |
 | phone | body |  | No | string |
-| status | body |  | No | number |
+| status | body | 0 - Đang xóa  1 - Đang active | No | number |
 
 **Responses**
 
@@ -910,7 +910,7 @@ alias: Thường là dạng tieu-de
 | type | body | Kiểu danh mục với: 0 - Là category của các article, 1 - Là category của các product, 2 - Là category của các voucher, 3 - Là category của các partner, 4 - Là category của các customer | No | string |
 | alias | body | Ex: tieu-de | No | string |
 | description | body |  | No | object |
-| status | body |  | No | text |
+| status | body | 0 - Đang xóa  1 - Đang active | No | text |
 | parameters | body |  | No | number |
 
 **Responses**
@@ -1087,7 +1087,7 @@ slug: Thường là dạng tieu-de
 | category_id | body |  | No | number |
 | parameters | body |  | No | object |
 | comments | body |  | No | object |
-| status | body |  | No | number |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active 2 - Đang chờ phê duyệt 3 - Đã được cấp phép đăng 4 - Đã bị thu hồi | No | number |
 | published_at | body |  | No | date |
 | evicted_at | body |  | No | date |
 | approved_at | body |  | No | date |
