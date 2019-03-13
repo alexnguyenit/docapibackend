@@ -251,13 +251,13 @@ GET /users?_start=10&_limit=10
 | birthday | body | Ngày sinh của người dùng: 16/4/1991 | No | string |
 | avatar | body | Ảnh đại diện người dùng lấy từ API upload | No | object |
 | info | body | Thông tin location, address... | No | object |
-| type | body | Kiểu người dùng (1,2,3,4,5) | No | number |
+| type | body | Kiểu người dùng enum(1,2,3,4,5) | No | enum |
 | brand_id | body |  | No | number |
 | rank_id | body |  | No | number |
 | category_id | body |  | No | number |
 | group_id | body |  | No | number |
 | role_id | body |  | No | number |
-| rules | body |  | No | string |
+| rules | body | Kiểu dữ liệu: 1,2,3,4 | No | string |
 
 **Responses**
 
