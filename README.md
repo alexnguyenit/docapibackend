@@ -359,7 +359,7 @@ GET /users?_start=10&_limit=10
 | Content-Type | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | File | formData |  | Yes | string |
-| type | formData |  | Yes | string |
+| type | params | Ex: news, profile, article, brand, other ... | No | string |
 
 **Responses**
 
@@ -375,6 +375,7 @@ GET /users?_start=10&_limit=10
 **Summary:** {{url}}/api/product/schema
 
 **Description:** API count
+
 
 **HTTP Request**
 `***GET*** /product/schema` 
@@ -832,18 +833,18 @@ GET /users?_start=10&_limit=10
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | subject | body |  | Yes | string |
-| slug | body |  | Yes | string |
-| review | body |  | Yes | string |
-| image | body |  | Yes | object |
-| content | body |  | Yes | text |
-| category_id | body |  | Yes | number |
-| parameters | body |  | Yes | object |
-| comments | body |  | Yes | object |
-| status | body |  | Yes | number |
-| published_at | body |  | Yes | date |
-| evicted_at | body |  | Yes | date |
-| approved_at | body |  | Yes | date |
-| approver_id | body |  | Yes | number |
+| slug | body |  | No | string |
+| review | body |  | No | string |
+| image | body |  | No | object |
+| content | body |  | No | text |
+| category_id | body |  | No | number |
+| parameters | body |  | No | object |
+| comments | body |  | No | object |
+| status | body |  | No | number |
+| published_at | body |  | No | date |
+| evicted_at | body |  | No | date |
+| approved_at | body |  | No | date |
+| approver_id | body |  | No | number |
 
 **Responses**
 
