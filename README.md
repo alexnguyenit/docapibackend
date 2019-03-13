@@ -718,6 +718,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 **Description:** API add brand
 
+alias: Thường là dạng tieu-de
+
 **HTTP Request**
 `***POST*** /brand/create` 
 
@@ -892,6 +894,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 **Description:** API add category
 
+alias: Thường là dạng tieu-de
+
 **HTTP Request**
 `***POST*** /category/create` 
 
@@ -904,7 +908,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Authorization | header |  | Yes | string |
 | title | body |  | Yes | string |
 | type | body | Kiểu danh mục với: 0 - Là category của các article, 1 - Là category của các product, 2 - Là category của các voucher, 3 - Là category của các partner, 4 - Là category của các customer | No | string |
-| alias | body |  | No | string |
+| alias | body | Ex: tieu-de | No | string |
 | description | body |  | No | object |
 | status | body |  | No | text |
 | parameters | body |  | No | number |
@@ -1063,6 +1067,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 **Description:** API add news
 
+slug: Thường là dạng tieu-de
+
 **HTTP Request**
 `***POST*** /news/create` 
 
@@ -1074,7 +1080,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | subject | body |  | Yes | string |
-| slug | body |  | No | string |
+| slug | body | Ex: doi-tuong or tieu-de | No | string |
 | review | body |  | No | string |
 | image | body |  | No | object |
 | content | body |  | No | text |
@@ -1157,6 +1163,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -1179,6 +1186,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -1204,7 +1212,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | _start | query |  | No | integer |
 | _attribute | query |  | No | string |
 | title_contains | query |  | No | string |
-| x-scope | header |  | No | string |
+| x-scope | header |  | yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -1227,6 +1236,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -1241,6 +1251,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 **Description:** API add article
 
+alias: Thường là dạng tieu-de
+
 **HTTP Request**
 `***POST*** /article/create` 
 
@@ -1250,7 +1262,9 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | title | body | Kiểu bài viết với: 0 - Là info, 1 - Là event, 2 - Là voucher, 3 - Là coupon, 4 - Là other | Yes | string |
+| alias | body | Ex: tieu-de | No | number |
 | category_id | body |  | No | number |
 | type | body |  | No | number |
 | image | body |  | No | object |
@@ -1261,6 +1275,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | code | body |  | No | string |
 | approved_at | body |  | No | date |
 | approver_id | body |  | No | number |
+
 
 **Responses**
 
@@ -1283,6 +1298,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 
 **Responses**
 
@@ -1306,6 +1322,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | ---- | ---------- | ----------- | -------- | ---- |
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
 | Body | body |  | Yes |  |
 
 **Responses**
