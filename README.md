@@ -403,6 +403,16 @@ GET /users?_start=10&_limit=10
 
 **Description:** API upload Image
 
+Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi source
+{
+    "urls": {
+        "thumbLink": "/media/images/article/thumb_0605d5481e4701fd2d850ade29a1d8b1_13032019104101.png",
+        "mediumLink": "/media/images/article/medium_0605d5481e4701fd2d850ade29a1d8b1_13032019104101.png",
+        "originLink": "/media/images/article/origin_0605d5481e4701fd2d850ade29a1d8b1_13032019104101.png"
+    },
+    "type": ".png"
+}
+
 **HTTP Request**
 `***POST*** /media/upload` 
 
