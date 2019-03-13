@@ -427,7 +427,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | Content-Type | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | File | formData |  | Yes | string |
-| type | params | Ex: news, profile, article, brand, other ... | No | string |
+| type | formData | Ex: news, profile, article, brand, other ... | No | string |
 
 **Responses**
 
@@ -903,7 +903,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | title | body |  | Yes | string |
-| type | body | Kiểu danh mục với: 0 - Là category của các article, 1 - Là category của các product, 2 - Là category của các voucher, 3 - Là category của các partner, 4 - Là category của các customer, 5 - Là category của các product | No | string |
+| type | body | Kiểu danh mục với: 0 - Là category của các article, 1 - Là category của các product, 2 - Là category của các voucher, 3 - Là category của các partner, 4 - Là category của các customer | No | string |
 | alias | body |  | No | string |
 | description | body |  | No | object |
 | status | body |  | No | text |
@@ -1200,11 +1200,11 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-| _limit | query |  | Yes | integer |
-| _start | query |  | Yes | integer |
-| _attribute | query |  | Yes | string |
-| title_contains | query |  | Yes | string |
-| x-scope | header |  | Yes | string |
+| _limit | query |  | No | integer |
+| _start | query |  | No | integer |
+| _attribute | query |  | No | string |
+| title_contains | query |  | No | string |
+| x-scope | header |  | No | string |
 
 **Responses**
 
