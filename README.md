@@ -618,6 +618,7 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | ---- | ----------- |
 | 200 | oke |
 
+# BRAND
 ## /BRAND/SCHEMA
 **Method:** GET
 
@@ -791,6 +792,178 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | ---- | ----------- |
 | 200 | oke |
 
+# CATEGORY
+## /CATEGORY/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/category/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /category/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/category/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /category/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/category/find
+
+**Description:** API get list category
+
+**HTTP Request**
+`***GET*** /category/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/category/findOne/1
+
+**Description:** API detail category
+
+**HTTP Request**
+`***GET*** /category/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/category/create
+
+**Description:** API add category
+
+**HTTP Request**
+`***POST*** /category/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| type | body | Kiểu danh mục với: 0 - Là category của các article, 1 - Là category của các product, 2 - Là category của các voucher, 3 - Là category của các partner, 4 - Là category của các customer, 5 - Là category của các product | No | string |
+| alias | body |  | No | string |
+| description | body |  | No | object |
+| status | body |  | No | text |
+| parameters | body |  | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/category/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /category/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CATEGORY/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/category/update/1
+
+**Description:** API update category
+
+**HTTP Request**
+`***PUT*** /category/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+# NEWS
 ## /NEWS/SCHEMA
 **Method:** GET
 
@@ -969,7 +1142,6 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | 200 | oke |
 
 # ARTICLE - VOUCHER - COUPON
-
 ## /ARTICLE/SCHEMA
 **Method:** GET
 
