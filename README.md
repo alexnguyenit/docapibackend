@@ -340,6 +340,60 @@ GET /users?_start=10&_limit=10
 | ---- | ----------- |
 | 200 | oke |
 
+## /USER/CHANGEPASSWORD
+
+**Method:** POST 
+
+**Summary:** {{url}}/api/user/changePassword
+
+**Description:** API change password
+
+**HTTP Request**
+`***POST*** /user/extend` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| password | body | Mật khẩu hiện tại | Yes | string |
+| new_password | body | Mật khẩu mới | Yes | string |
+| confirm | body | Mật khẩu giống mất khẩu mới | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+
+## /USER/EXTEND
+
+**Method:** POST 
+
+**Summary:** {{url}}/api/user/extend
+
+**Description:** API extend token
+
+**HTTP Request**
+`***POST*** /user/extend` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # MEDIA
 ## /MEDIA/UPLOAD
 **Method:** POST
