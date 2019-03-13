@@ -16,6 +16,7 @@ This is API DOCUMENT LOYALTY BACKEND
 | 400 |  Parameter Fail   |
 | 404 |  Not found   |
 | 500 |  Server error   |
+| 502 |  Database Error   |
 
 ## FILTER
 
