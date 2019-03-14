@@ -14,6 +14,7 @@ This is API DOCUMENT LOYALTY BACKEND
 | 204 | oke |
 | 401 |  Unauthorized   |
 | 400 |  Parameter Fail   |
+| 403 | Forbidden |
 | 404 |  Not found   |
 | 500 |  Server error   |
 | 502 |  Database Error   |
@@ -85,6 +86,11 @@ Skip a specific number of entries (especially useful for pagination).
 Get the second page of results.
 
 GET /users?_start=10&_limit=10 
+
+## Like
+
+*Example*
+GET /users?email_contains=%hoangnn% 
 
 ... 
 
