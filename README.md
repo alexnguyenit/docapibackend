@@ -18,6 +18,7 @@ This is API DOCUMENT LOYALTY BACKEND
 | 404 |  Not found   |
 | 500 |  Server error   |
 | 502 |  Database Error   |
+| 503 | Unavailable |
 
 ## FILTER
 
