@@ -350,7 +350,7 @@ GET /users?_start=10&_limit=10
 **Description:** API change password
 
 **HTTP Request**
-`***POST*** /user/extend` 
+`***POST*** /user/changePassword` 
 
 **Parameters**
 
