@@ -13,7 +13,7 @@ This is API DOCUMENT LOYALTY BACKEND
 | 201 | oke |
 | 204 | oke |
 | 401 |  Unauthorized   |
-| 400 |  Parameter Fail   |
+| 400 |  Bad request   |
 | 403 | Forbidden |
 | 404 |  Not found   |
 | 500 |  Server error   |
