@@ -54,7 +54,12 @@ Find products having a price equal or greater than 3.
 
 GET /products?price_gte=3
 
-Find multiple news with id 3, 6, 8 GET /news?id_in=3&id_in=6&id_in=8
+Find multiple news with id 3, 6, 8 GET /article/find?id_in=3&id_in=6&id_in=8
+
+or data
+
+GET /article/find?id_or=3&id_or=6
+
 
 ## Sort
 
@@ -93,6 +98,12 @@ GET /users?_start=10&_limit=10
 *Example*
 
 GET /users?email_contains=%hoangnn% 
+
+## Or
+
+*Example*
+
+GET /category/find?or_title=Category&or_status=0
 
 ... 
 
@@ -975,11 +986,11 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-# NEWS
-## /NEWS/SCHEMA
+# ARTICLE
+## /ARTICLE/SCHEMA
 **Method:** GET
 
-**Summary:** {{url}}/api/news/schema
+**Summary:** {{url}}/api/article/schema
 
 **Description:** API count
 
@@ -999,10 +1010,10 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/COUNT
+## /ARTICLE/COUNT
 **Method:** GET
 
-**Summary:** {{url}}/api/news/count
+**Summary:** {{url}}/api/article/count
 
 **Description:** API count
 
@@ -1025,12 +1036,12 @@ alias: Thường là dạng tieu-de
 ## /NEWS/FIND
 **Method:** GET
 
-**Summary:** {{url}}/api/news/find
+**Summary:** {{url}}/api/article/find
 
-**Description:** API get list news
+**Description:** API get list article
 
 **HTTP Request**
-`***GET*** /news/find` 
+`***GET*** /article/find` 
 
 **Parameters**
 
@@ -1045,15 +1056,15 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/FINDONE/2
+## /ARTICLE/FINDONE/2
 **Method:** GET
 
-**Summary:** {{url}}/api/news/findOne/1
+**Summary:** {{url}}/api/article/findOne/1
 
-**Description:** API detail news
+**Description:** API detail article
 
 **HTTP Request**
-`***GET*** /news/findOne/2` 
+`***GET*** /article/findOne/2` 
 
 **Parameters**
 
@@ -1068,17 +1079,17 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/CREATE
+## /ARTICLE/CREATE
 **Method:** POST
 
-**Summary:** {{url}}/api/news/create
+**Summary:** {{url}}/api/article/create
 
-**Description:** API add news
+**Description:** API add article
 
 slug: Thường là dạng tieu-de
 
 **HTTP Request**
-`***POST*** /news/create` 
+`***POST*** /article/create` 
 
 **Parameters**
 
@@ -1107,15 +1118,15 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/DESTROY/1
+## /ARTICLE/DESTROY/1
 **Method:** DELETE
 
-**Summary:** {{url}}/api/news/destroy/1
+**Summary:** {{url}}/api/article/destroy/1
 
 **Description:** API destroy
 
 **HTTP Request**
-`***DELETE*** /news/destroy/1` 
+`***DELETE*** /article/destroy/1` 
 
 **Parameters**
 
@@ -1130,15 +1141,15 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/UPDATE/1
+## /ARTICLE/UPDATE/1
 **Method:** PUT
 
-**Summary:** {{url}}/api/news/update/1
+**Summary:** {{url}}/api/article/update/1
 
-**Description:** API update news
+**Description:** API update article
 
 **HTTP Request**
-`***PUT*** /news/update/1` 
+`***PUT*** /article/update/1` 
 
 **Parameters**
 
@@ -1155,16 +1166,16 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-# ARTICLE - VOUCHER - COUPON
-## /ARTICLE/SCHEMA
+# REWARD - ( VOUCHER - COUPON - EVENT )
+## /REWARD/SCHEMA
 **Method:** GET
 
-**Summary:** {{url}}/api/article/schema
+**Summary:** {{url}}/api/reward/schema
 
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /article/schema` 
+`***GET*** /reward/schema` 
 
 **Parameters**
 
@@ -1179,15 +1190,15 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/COUNT
+## /REWARD/COUNT
 **Method:** GET
 
-**Summary:** {{url}}/api/article/count
+**Summary:** {{url}}/api/reward/count
 
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /article/count` 
+`***GET*** /reward/count` 
 
 **Parameters**
 
@@ -1202,15 +1213,15 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/FIND
+## /REWARD/FIND
 **Method:** GET
 
-**Summary:** {{url}}/api/article/find?_limit=2&_start=0&_attribute=id,title&title_contains=%cải tiến%
+**Summary:** {{url}}/api/reward/find?_limit=2&_start=0&_attribute=id,title&title_contains=%cải tiến%
 
-**Description:** API get list article
+**Description:** API get list reward
 
 **HTTP Request**
-`***GET*** /article/find` 
+`***GET*** /reward/find` 
 
 **Parameters**
 
@@ -1229,15 +1240,15 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/FINDONE/1
+## /REWARD/FINDONE/1
 **Method:** GET
 
-**Summary:** {{url}}/api/article/findOne/1
+**Summary:** {{url}}/api/reward/findOne/1
 
-**Description:** API detail Article
+**Description:** API detail reward
 
 **HTTP Request**
-`***GET*** /article/findOne/1` 
+`***GET*** /reward/findOne/1` 
 
 **Parameters**
 
@@ -1252,17 +1263,17 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/CREATE
+## /REWARD/CREATE
 **Method:** POST
 
-**Summary:** {{url}}/api/article/create
+**Summary:** {{url}}/api/reward/create
 
-**Description:** API add article
+**Description:** API add reward
 
 alias: Thường là dạng tieu-de
 
 **HTTP Request**
-`***POST*** /article/create` 
+`***POST*** /reward/create` 
 
 **Parameters**
 
@@ -1291,15 +1302,15 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/DESTROY/12
+## /REWARD/DESTROY/12
 **Method:** DELETE
 
-**Summary:** {{url}}/api/article/destroy/11
+**Summary:** {{url}}/api/reward/destroy/11
 
 **Description:** API destroy
 
 **HTTP Request**
-`***DELETE*** /article/destroy/12` 
+`***DELETE*** /reward/destroy/12` 
 
 **Parameters**
 
@@ -1314,15 +1325,15 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /ARTICLE/UPDATE/12
+## /REWARD/UPDATE/12
 **Method:** PUT
 
-**Summary:** {{url}}/api/article/update/11
+**Summary:** {{url}}/api/reward/update/11
 
-**Description:** API update article
+**Description:** API update reward
 
 **HTTP Request**
-`***PUT*** /article/update/12` 
+`***PUT*** /reward/update/12` 
 
 **Parameters**
 
