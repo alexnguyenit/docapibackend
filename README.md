@@ -1349,3 +1349,26 @@ alias: Thường là dạng tieu-de
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+# MENU - NAVIGATION
+## /NAVIGATION/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/navigation/list
+**Description:** API get list navigation
+
+**HTTP Request**
+`***GET*** /navigation/list` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
