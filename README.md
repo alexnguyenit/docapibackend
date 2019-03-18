@@ -1355,6 +1355,7 @@ alias: Thường là dạng tieu-de
 **Method:** GET
 
 **Summary:** {{url}}/api/navigation/list
+
 **Description:** API get list navigation
 
 **HTTP Request**
