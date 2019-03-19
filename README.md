@@ -1033,7 +1033,7 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /NEWS/FIND
+## /ARTICLE/FIND
 **Method:** GET
 
 **Summary:** {{url}}/api/article/find
