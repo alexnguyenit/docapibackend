@@ -995,7 +995,7 @@ alias: Thường là dạng tieu-de
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /news/schema` 
+`***GET*** /article/schema` 
 
 **Parameters**
 
@@ -1018,7 +1018,7 @@ alias: Thường là dạng tieu-de
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /news/count` 
+`***GET*** /article/count` 
 
 **Parameters**
 
