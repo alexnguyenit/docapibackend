@@ -1557,3 +1557,180 @@ slug: Thường là dạng tieu-de
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+# CONFIG
+## /CONFIG/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/config/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /config/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/config/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /config/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/config/find
+
+**Description:** API get list config
+
+**HTTP Request**
+`***GET*** /config/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/config/findOne/1
+
+**Description:** API detail config
+
+**HTTP Request**
+`***GET*** /config/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/config/create
+
+**Description:** API add config
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /config/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| key | body |  | Yes | string |
+| value | body |  | No | text |
+| name | body |  | No | string |
+| description | body |  | No | text |
+| type | body |  | No | number |
+| category_id | body |  | No | number |
+| group | body |  | No | string |
+| brands | body | [1,2,3,4] | No | object array |
+| parameters | body |  | No | object |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/config/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /config/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONFIG/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/config/update/1
+
+**Description:** API update config
+
+**HTTP Request**
+`***PUT*** /config/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
