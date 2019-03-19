@@ -1350,6 +1350,190 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
+# ENTITY
+## /ENTITY/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/entity/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /entity/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/entity/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /entity/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/entity/find
+
+**Description:** API get list entity
+
+**HTTP Request**
+`***GET*** /entity/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/entity/findOne/1
+
+**Description:** API detail entity
+
+**HTTP Request**
+`***GET*** /entity/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/entity/create
+
+**Description:** API add entity
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /entity/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body | Ex: tieu-de | No | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| code | body |  | No | string |
+| brand_id | body |  | No | number |
+| type | body |  | No | string |
+| category | body |  | No | string |
+| scope | body |  | No | string |
+| level | body |  | No | number |
+| parent_id | body |  | No | number |
+| image | body |  | No | object |
+| url | body |  | No | text |
+| extension_id | body |  | No | number |
+| object_id | body |  | No | number |
+| group_id | body |  | No | number |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/entity/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /entity/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ENTITY/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/entity/update/1
+
+**Description:** API update entity
+
+**HTTP Request**
+`***PUT*** /entity/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # MENU - NAVIGATION
 ## /NAVIGATION/FIND
 **Method:** GET
