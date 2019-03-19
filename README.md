@@ -1671,8 +1671,8 @@ slug: Thường là dạng tieu-de
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | key | body |  | Yes | string |
-| value | body |  | No | text |
-| name | body |  | No | string |
+| value | body |  | Yes | text |
+| name | body |  | Yes | string |
 | description | body |  | No | text |
 | type | body |  | No | number |
 | category_id | body |  | No | number |
