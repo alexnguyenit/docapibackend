@@ -1931,3 +1931,195 @@ slug: Thường là dạng tieu-de
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+# EXTENSION
+## /EXTENSION/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/extension/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /extension/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/extension/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /extension/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/extension/find
+
+**Description:** API get list extension
+
+**HTTP Request**
+`***GET*** /extension/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/extension/findOne/1
+
+**Description:** API detail extension
+
+**HTTP Request**
+`***GET*** /extension/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/extension/create
+
+**Description:** API add extension
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /extension/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body | Ex: tieu-de | No | string |
+| code | body |  | No | string |
+| brand | body |  | No | object array |
+| description | body |  | No | text |
+| note | body |  | No | text |
+| scope | body |  | No | string |
+| type | body |  | No | string |
+| parameters | body |  | No | object |
+| structure | body |  | No | object |
+| config | body |  | No | object |
+| installed_at | body |  | No | datetime |
+| installed_by | body |  | No | number |
+| removed_at | body |  | No | datetime |
+| removed_by | body |  | No | number |
+| actived_at | body |  | No | datetime |
+| actived_by | body |  | No | number |
+| stoped_at | body |  | No | datetime |
+| stoped_by | body |  | No | number |
+| called_time | body |  | No | number |
+| worked_time | body |  | No | number |
+| version | body |  | No | string |
+| start_date | body | Ex: 16/4/2019 | No | string |
+| end_date | body | Ex: 16/4/2019 | No | string |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/extension/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /extension/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXTENSION/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/extension/update/1
+
+**Description:** API update extension
+
+**HTTP Request**
+`***PUT*** /extension/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
