@@ -1734,3 +1734,200 @@ slug: Thường là dạng tieu-de
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+# CAMPAIGN
+## /CAMPAIGN/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/campaign/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /campaign/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/campaign/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /campaign/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/campaign/find
+
+**Description:** API get list campaign
+
+**HTTP Request**
+`***GET*** /campaign/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/campaign/findOne/1
+
+**Description:** API detail campaign
+
+**HTTP Request**
+`***GET*** /campaign/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/campaign/create
+
+**Description:** API add campaign
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /campaign/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body | Ex: tieu-de | No | string |
+| code | body |  | No | string |
+| brand_id | body | Reference Brand | No | number |
+| description | body |  | No | text |
+| note | body |  | No | text |
+| programs | body |  | No | object |
+| localtions | body |  | No | object |
+| rewards | body |  | No | object |
+| articles | body |  | No | object |
+| connections | body |  | No | object |
+| conditions | body |  | No | object |
+| parameters | body |  | No | object |
+| image | body |  | No | object |
+| target | body |  | No | string |
+| expect | body |  | No | string |
+| result | body |  | No | string |
+| statistic | body |  | No | string |
+| schedule | body |  | No | string |
+| cost | body |  | No | number |
+| paid | body |  | No | number |
+| point | body |  | No | number |
+| percentage | body |  | No | number |
+| piority | body |  | No | number |
+| level | body |  | No | number |
+| parameters | body |  | No | object |
+| comments | body |  | No | object |
+| start_date | body | Ex: 16/4/2019 | No | string |
+| end_date | body | Ex: 16/4/2019 | No | string |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/campaign/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /campaign/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CAMPAIGN/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/campaign/update/1
+
+**Description:** API update campaign
+
+**HTTP Request**
+`***PUT*** /campaign/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
