@@ -1675,7 +1675,7 @@ slug: Thường là dạng tieu-de
 | name | body |  | Yes | string |
 | description | body |  | No | text |
 | type | body |  | No | number |
-| category_id | body |  | No | number |
+| category_id | body | Reference category | No | number |
 | group | body |  | No | string |
 | brands | body | [1,2,3,4] | No | object array |
 | parameters | body |  | No | object |
