@@ -2156,9 +2156,9 @@ Use source origin -> src when install extension
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 | src | body | Is src origin when upload media | Yes | string |
-| scope | body | Ex: admin | client | Yes | string |
-| type | body | Ex: module | plugin | Yes | string |
-| brand | body | Ex: base | brand alias | Yes | string |
+| scope | body | Ex: enum[admin, client] | Yes | string |
+| type | body | Ex: enum[module,plugin] | Yes | string |
+| brand | body | Ex: base or brand alias | Yes | string |
 
 Giá trị đầu tiên trong Ex: là default
 
