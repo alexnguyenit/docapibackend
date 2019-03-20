@@ -2076,8 +2076,8 @@ slug: Thường là dạng tieu-de
 | called_time | body |  | No | number |
 | worked_time | body |  | No | number |
 | version | body |  | No | string |
-| start_date | body | Ex: 16/4/2019 | No | string |
-| end_date | body | Ex: 16/4/2019 | No | string |
+| start_date | body | Ex: 2019-03-08 | No | string |
+| end_date | body | Ex: 2020-03-08 | No | string |
 | status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
 
 **Responses**
