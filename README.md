@@ -2146,7 +2146,7 @@ After upload media with type = extension
 Use source origin -> src when install extension
 
 **HTTP Request**
-`***POST*** /extension/create` 
+`***POST*** /extension/install` 
 
 **Parameters**
 
