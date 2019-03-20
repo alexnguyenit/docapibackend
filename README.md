@@ -1295,6 +1295,8 @@ alias: Thường là dạng tieu-de
 | title | body | Kiểu bài viết với: 0 - Là info, 1 - Là event, 2 - Là voucher, 3 - Là coupon, 4 - Là other | Yes | string |
 | alias | body | Ex: tieu-de | No | number |
 | category_id | body |  | No | number |
+| brand_id | body |  | No | number |
+| tags | body |  | No | text |
 | type | body |  | No | number |
 | image | body |  | No | object |
 | preview | body |  | No | string |
