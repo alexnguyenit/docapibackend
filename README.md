@@ -105,13 +105,13 @@ GET /users?email_like=%hoangnn%
 
 GET /category/find?or_title=Category&or_status=0
 
-## Search contains (include search array)
+## contains (include search array)
 
 *Example*
 
 GET /config/find?brands_contains=[13]
 
-# Search Json
+## Filter Json Object
 
 GET /product/find?image.imageThumb=link
 
