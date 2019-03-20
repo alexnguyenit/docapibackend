@@ -2133,3 +2133,37 @@ slug: Thường là dạng tieu-de
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+## /EXTENSION/INSTALL
+**Method:** POST
+
+**Summary:** {{url}}/api/extension/install
+
+**Description:** 
+
+API install extension
+After upload media with type = extension
+Use source origin -> src when install extension
+
+**HTTP Request**
+`***POST*** /extension/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| src | body | Is src origin when upload media | Yes | string |
+| scope | body | Ex: admin | client | Yes | string |
+| type | body | Ex: module | plugin | Yes | string |
+| brand | body | Ex: base | brand alias | Yes | string |
+
+Giá trị đầu tiên trong Ex: là default
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
