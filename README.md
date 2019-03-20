@@ -97,13 +97,23 @@ GET /users?_start=10&_limit=10
 
 *Example*
 
-GET /users?email_contains=%hoangnn% 
+GET /users?email_like=%hoangnn% 
 
 ## Or
 
 *Example*
 
 GET /category/find?or_title=Category&or_status=0
+
+## Search contains (include search array)
+
+*Example*
+
+GET /config/find?brands_contains=[13]
+
+# Search Json
+
+GET /product/find?image.imageThumb=link
 
 ... 
 
