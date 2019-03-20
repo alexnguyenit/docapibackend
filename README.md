@@ -2057,7 +2057,7 @@ slug: Thường là dạng tieu-de
 | name | body |  | Yes | string |
 | alias | body | Ex: tieu-de | No | string |
 | code | body |  | No | string |
-| brand | body |  | No | object array |
+| brand | body |  | No | string |
 | description | body |  | No | text |
 | note | body |  | No | text |
 | scope | body |  | No | string |
