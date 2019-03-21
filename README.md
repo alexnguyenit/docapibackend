@@ -1362,6 +1362,99 @@ alias: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
+# OBJECT
+## /OBJECT/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/object/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /object/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /OBJECT/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/object/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /object/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /OBJECT/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/object/find
+
+**Description:** API get list object
+
+**HTTP Request**
+`***GET*** /object/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /OBJECT/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/object/findOne/1
+
+**Description:** API detail object
+
+**HTTP Request**
+`***GET*** /object/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # ENTITY
 ## /ENTITY/SCHEMA
 **Method:** GET
