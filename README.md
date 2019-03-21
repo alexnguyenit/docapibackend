@@ -2169,3 +2169,185 @@ Giá trị đầu tiên trong Ex: là default
 | Code | Description |
 | ---- | ----------- |
 | 200 | oke |
+
+# EXCHANGE
+## /EXCHANGE/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/exchange/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /exchange/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/exchange/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /exchange/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/exchange/find
+
+**Description:** API get list exchange
+
+**HTTP Request**
+`***GET*** /exchange/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/exchange/findOne/1
+
+**Description:** API detail exchange
+
+**HTTP Request**
+`***GET*** /exchange/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/exchange/create
+
+**Description:** API add exchange
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /exchange/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| type | body | | No | integer |
+| source | body | | No | string |
+| amount | body | | No | number |
+| point | body | | No | string |
+| product | body | | No | object |
+| campaign | body | | No | object |
+| program | body | | No | object |
+| data | body | | No | string |
+| description | body | | No | string |
+| note | body | | No | string |
+| checked_at | body | | No | string |
+| approved_at | body | | No | string |
+| proof | body | | No | object |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/exchange/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /exchange/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /EXCHANGE/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/exchange/update/1
+
+**Description:** API update exchange
+
+**HTTP Request**
+`***PUT*** /exchange/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
