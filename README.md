@@ -1479,17 +1479,17 @@ slug: Thường là dạng tieu-de
 | description | body |  | No | text |
 | parameters | body |  | No | object |
 | code | body |  | No | string |
-| brand_id | body |  | No | number |
-| type | body |  | No | string |
+| brand_id | body | Reference | No | number |
+| type | body | Ex: menu | No | string |
 | category | body |  | No | string |
-| scope | body |  | No | string |
+| scope | body | admin | client | No | string |
 | level | body |  | No | number |
-| parent_id | body |  | No | number |
-| image | body |  | No | object |
+| parent_id | body | Ex: 0 is root | No | number |
+| image | body | {"icon":"fa-cogs"} | No | object |
 | url | body |  | No | text |
 | extension_id | body |  | No | number |
-| object_id | body |  | No | number |
-| group_id | body |  | No | number |
+| object_id | body | Reference Object | No | number |
+| group_id | body | Reference Group | No | number |
 | status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
 
 **Responses**
