@@ -1747,6 +1747,200 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
+# PROGRAM
+## /PROGRAM/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/program/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /program/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/program/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /program/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/program/find
+
+**Description:** API get list program
+
+**HTTP Request**
+`***GET*** /program/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/program/findOne/1
+
+**Description:** API detail program
+
+**HTTP Request**
+`***GET*** /program/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/program/create
+
+**Description:** API add program
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /program/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body | Ex: tieu-de | No | string |
+| tags | body |  | No | string |
+| brand_id | body |  | No | number |
+| group_id | body |  | No | number |
+| category_id | body |  | No | number |
+| description | body |  | No | text |
+| note | body |  | No | object |
+| locations | body |  | No | object |
+| articles | body |  | No | object |
+| news | body |  | No | object |
+| products | body |  | No | object |
+| connections | body |  | No | object |
+| conditions | body |  | No | object |
+| parameters | body |  | No | object |
+| comments | body |  | No | object |
+| rankings | body |  | No | object |
+| users | body |  | No | object |
+| image | body |  | No | object |
+| entity | body |  | No | object |
+| tracking | body |  | No | object |
+| cost | body |  | No | number |
+| paid | body |  | No | number |
+| piority | body |  | No | number |
+| start_date | body |  | No | number |
+| end_date | body |  | No | number |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/program/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /program/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PROGRAM/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/program/update/1
+
+**Description:** API update program
+
+**HTTP Request**
+`***PUT*** /program/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # CAMPAIGN
 ## /CAMPAIGN/SCHEMA
 **Method:** GET
