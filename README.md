@@ -424,6 +424,184 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
+# RULE
+## /RULE/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/rule/schema
+
+**Description:** API count
+
+
+**HTTP Request**
+`***GET*** /rule/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/rule/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /rule/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/rule/find
+
+**Description:** API get list rule
+
+**HTTP Request**
+`***GET*** /rule/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/rule/findOne/1
+
+**Description:** API detail rule
+
+**HTTP Request**
+`***GET*** /rule/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/rule/create
+
+**Description:** API add rule
+
+**HTTP Request**
+`***POST*** /rule/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| alias | body | Ex: title | No | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| scope | body | admin or client | No | string |
+| brand_id | body | Reference brand | Yes | number |
+| status | body | 0 - Đang xóa  1 - Đang active | No | number |
+| entity | body | Reference Entity | No | object |
+| object_id | body | Reference object | Yes | number |
+| level | body | default 1 | No | number |
+| parent_id | body | default 0 | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/rule/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /rule/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RULE/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/rule/update/1
+
+**Description:** API update rule
+
+**HTTP Request**
+`***PUT*** /rule/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # MEDIA
 ## /MEDIA/UPLOAD
 **Method:** POST
