@@ -424,6 +424,181 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
+# ROLE
+## /ROLE/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/role/schema
+
+**Description:** API count
+
+
+**HTTP Request**
+`***GET*** /role/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/role/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /role/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/role/find
+
+**Description:** API get list role
+
+**HTTP Request**
+`***GET*** /role/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/role/findOne/1
+
+**Description:** API detail rule
+
+**HTTP Request**
+`***GET*** /role/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/role/create
+
+**Description:** API add rule
+
+**HTTP Request**
+`***POST*** /role/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| alias | body | Ex: title | No | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| rules | body | [1,2,3] | No | object |
+| level | body | default 1 | No | number |
+| parent_id | body | default 0 | No | number |
+| status | body | default 1 | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/role/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /role/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /ROLE/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/role/update/1
+
+**Description:** API update role
+
+**HTTP Request**
+`***PUT*** /role/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # PERMISSION
 ## /PERMISSION/SCHEMA
 
