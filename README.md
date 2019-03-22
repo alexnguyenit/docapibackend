@@ -424,18 +424,18 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-# RULE
-## /RULE/SCHEMA
+# PERMISSION
+## /PERMISSION/SCHEMA
 
 **Method:** GET
 
-**Summary:** {{url}}/api/rule/schema
+**Summary:** {{url}}/api/permission/schema
 
 **Description:** API count
 
 
 **HTTP Request**
-`***GET*** /rule/schema` 
+`***GET*** /permission/schema` 
 
 **Parameters**
 
@@ -450,15 +450,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/COUNT
+## /PERMISSION/COUNT
 **Method:** GET
 
-**Summary:** {{url}}/api/rule/count
+**Summary:** {{url}}/api/permission/count
 
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /rule/count` 
+`***GET*** /permission/count` 
 
 **Parameters**
 
@@ -473,15 +473,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/FIND
+## /PERMISSION/FIND
 **Method:** GET
 
-**Summary:** {{url}}/api/rule/find
+**Summary:** {{url}}/api/permission/find
 
-**Description:** API get list rule
+**Description:** API get list permission
 
 **HTTP Request**
-`***GET*** /rule/find` 
+`***GET*** /permission/find` 
 
 **Parameters**
 
@@ -496,15 +496,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/FINDONE/1
+## /PERMISSION/FINDONE/1
 **Method:** GET
 
-**Summary:** {{url}}/api/rule/findOne/1
+**Summary:** {{url}}/api/permission/findOne/1
 
 **Description:** API detail rule
 
 **HTTP Request**
-`***GET*** /rule/findOne/1` 
+`***GET*** /permission/findOne/1` 
 
 **Parameters**
 
@@ -519,15 +519,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/CREATE
+## /PERMISSION/CREATE
 **Method:** POST
 
-**Summary:** {{url}}/api/rule/create
+**Summary:** {{url}}/api/permission/create
 
 **Description:** API add rule
 
 **HTTP Request**
-`***POST*** /rule/create` 
+`***POST*** /permission/create` 
 
 **Parameters**
 
@@ -554,15 +554,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/DESTROY/1
+## /PERMISSION/DESTROY/1
 **Method:** DELETE
 
-**Summary:** {{url}}/api/rule/destroy/1
+**Summary:** {{url}}/api/permission/destroy/1
 
 **Description:** API destroy
 
 **HTTP Request**
-`***DELETE*** /rule/destroy/1` 
+`***DELETE*** /permission/destroy/1` 
 
 **Parameters**
 
@@ -577,15 +577,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /RULE/UPDATE/1
+## /PERMISSION/UPDATE/1
 **Method:** PUT
 
-**Summary:** {{url}}/api/rule/update/1
+**Summary:** {{url}}/api/permission/update/1
 
-**Description:** API update rule
+**Description:** API update permission
 
 **HTTP Request**
-`***PUT*** /rule/update/1` 
+`***PUT*** /permission/update/1` 
 
 **Parameters**
 
