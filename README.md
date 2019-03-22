@@ -720,8 +720,6 @@ GET /product/find?image.imageThumb=link
 | status | body | 0 - Đang xóa  1 - Đang active | No | number |
 | entity | body | Reference Entity | No | object |
 | object_id | body | Reference object | Yes | number |
-| level | body | default 1 | No | number |
-| parent_id | body | default 0 | No | number |
 
 **Responses**
 
