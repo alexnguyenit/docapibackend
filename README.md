@@ -2502,17 +2502,17 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /EXTENSION/CREATE
+## /EXTENSION/INSTALL
 **Method:** POST
 
-**Summary:** {{url}}/api/extension/create
+**Summary:** {{url}}/api/extension/install
 
 **Description:** API add extension
 
 slug: Thường là dạng tieu-de
 
 **HTTP Request**
-`***POST*** /extension/create` 
+`***POST*** /extension/install` 
 
 **Parameters**
 
@@ -2521,28 +2521,15 @@ slug: Thường là dạng tieu-de
 | Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
-| name | body |  | Yes | string |
-| alias | body | Ex: tieu-de | No | string |
-| code | body |  | No | string |
-| brand | body |  | No | string |
-| description | body |  | No | text |
+| src | body |  | Yes | string |
 | note | body |  | No | text |
-| scope | body |  | No | string |
-| type | body |  | No | string |
-| parameters | body |  | No | object |
 | structure | body |  | No | object |
-| config | body |  | No | object |
 | installed_at | body |  | No | datetime |
 | installed_by | body |  | No | number |
-| removed_at | body |  | No | datetime |
-| removed_by | body |  | No | number |
 | actived_at | body |  | No | datetime |
 | actived_by | body |  | No | number |
-| stoped_at | body |  | No | datetime |
-| stoped_by | body |  | No | number |
 | called_time | body |  | No | number |
 | worked_time | body |  | No | number |
-| version | body |  | No | string |
 | start_date | body | Ex: 2019-03-08 | No | string |
 | end_date | body | Ex: 2020-03-08 | No | string |
 | status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
@@ -2553,20 +2540,21 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-## /EXTENSION/DESTROY/1
+## /EXTENSION/REMOVE/1
 **Method:** DELETE
 
-**Summary:** {{url}}/api/extension/destroy/1
+**Summary:** {{url}}/api/extension/remove/1
 
-**Description:** API destroy
+**Description:** API remove extension
 
 **HTTP Request**
-`***DELETE*** /extension/destroy/1` 
+`***POST*** /extension/remove/1` 
 
 **Parameters**
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
 | x-scope | header |  | Yes | string |
 | Authorization | header |  | Yes | string |
 
