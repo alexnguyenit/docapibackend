@@ -8,7 +8,7 @@ This is API DOCUMENT LOYALTY BACKEND
 
 Table of contents
 
-1. [Introduction](#introduction)
+1. [Tips](#tips)
 1. [User](#user)
 1. [Role](#role)
 1. [Permission](#permission)
