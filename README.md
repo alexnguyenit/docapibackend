@@ -8,16 +8,16 @@ This is API DOCUMENT LOYALTY BACKEND
 
 Table of contents
 
-1. [Tips](#tips)
-1. [User](#user)
-1. [Role](#role)
-1. [Permission](#permission)
-1. [Media](#media)
-1. [Product](#product)
-1. [Brand](#brand)
-1. [Category](#category)
-1. [Article](#article)
-1. [Reward](#reward----voucher---coupon---event-)
+|1. [Introduction](#introduction)|1. [Object](#object)|
+|1. [User](#user)|1. [Entity](#entity)|
+|1. [Role](#role)|1. [Menu](#menu)|
+|1. [Permission](#permission)|1. [Config](#config)|
+|1. [Media](#media)|1. [Program](#program)|
+|1. [Product](#product)|1. [Extension](#extension)|
+|1. [Brand](#brand)|1. [Exchange](#exchange)|
+|1. [Category](#category)||
+|1. [Article](#article)||
+|1. [Reward](#reward)||
 
 # Tips
 ## STATUS CODE
@@ -1541,7 +1541,10 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-# REWARD - ( VOUCHER - COUPON - EVENT )
+# REWARD
+
+( VOUCHER - COUPON - GIFT )
+ 
 ## /REWARD/SCHEMA
 **Method:** GET
 
@@ -2004,7 +2007,7 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
-# MENU - NAVIGATION
+# MENU
 ## /NAVIGATION/FIND
 **Method:** GET
 
