@@ -561,7 +561,7 @@ GET /product/find?image.imageThumb=link
 | alias | body | Ex: title | No | string |
 | description | body |  | No | text |
 | parameters | body |  | No | object |
-| rules | body | [1,2,3] | No | object |
+| rules | body | 1,2,3 | No | object |
 | level | body | default 1 | No | number |
 | parent_id | body | default 0 | No | number |
 | status | body | default 1 | No | number |
