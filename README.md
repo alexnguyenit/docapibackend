@@ -10,6 +10,7 @@ Table of contents
 
 1. [Tips](#tips)
 1. [User](#user)
+1. [Group](#group)
 1. [Role](#role)
 1. [Permission](#permission)
 1. [Media](#media)
