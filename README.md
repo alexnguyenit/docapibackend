@@ -6,6 +6,20 @@ This is API DOCUMENT LOYALTY BACKEND
 
 **x-scope:** admin
 
+Table of contents
+
+1. [Tips](#tips)
+1. [User](#user)
+1. [Role](#role)
+1. [Permission](#permission)
+1. [Media](#media)
+1. [Product](#product)
+1. [Brand](#brand)
+1. [Category](#category)
+1. [Article](#article)
+1. [Reward](#reward----voucher---coupon---event-)
+
+# Tips
 ## STATUS CODE
 | Code | Description |
 | ---- | ----------- |
