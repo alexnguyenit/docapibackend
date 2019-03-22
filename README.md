@@ -715,7 +715,7 @@ GET /product/find?image.imageThumb=link
 | alias | body | Ex: title | No | string |
 | description | body |  | No | text |
 | parameters | body |  | No | object |
-| scope | body | admin or client | No | string |
+| scope | body | ['admin','client'] | No | object |
 | brand_id | body | Reference brand | Yes | number |
 | status | body | 0 - Đang xóa  1 - Đang active | No | number |
 | entity | body | Reference Entity | No | object |
