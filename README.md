@@ -446,6 +446,180 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
+# GROUP
+## /GROUP/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/group/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /group/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/group/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /group/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/group/find
+
+**Description:** API get list group
+
+**HTTP Request**
+`***GET*** /group/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/group/findOne/1
+
+**Description:** API detail rule
+
+**HTTP Request**
+`***GET*** /group/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/group/create
+
+**Description:** API add rule
+
+**HTTP Request**
+`***POST*** /group/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| name | body |  | Yes | string |
+| alias | body |  | No | string |
+| description | body |  | No | string |
+| parameters | body |  | No | object |
+| roles | body | [1,3] | No | array |
+| rules | body | [1,2,3] | No | array |
+| scope | body | 0,1,2 (0: toàn hệ thống, 1 là admin, 2 là người dùng) | No | number |
+| status | body | default 1 | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/group/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /group/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /GROUP/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/group/update/1
+
+**Description:** API update group
+
+**HTTP Request**
+`***PUT*** /group/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # ROLE
 ## /ROLE/SCHEMA
 
