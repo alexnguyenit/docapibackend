@@ -12,7 +12,7 @@ Table of contents
 1. [User](#user)
 1. [Group](#group)
 1. [Role](#role)
-1. [Permission](#permission)
+1. [Right](#right)
 1. [Media](#media)
 1. [Product](#product)
 1. [Brand](#brand)
@@ -309,8 +309,9 @@ GET /product/find?image.imageThumb=link
 | category_id | body |  | No | number |
 | group_id | body |  | No | number |
 | role_id | body |  | No | number |
-| rules | body | Kiểu dữ liệu: 1,2,3,4 | No | string |
-
+| rules | body | Luật ... Kiểu dữ liệu: [1,2,3,4] | No | array |
+| rights | body | Quyền Kiểu dữ liệu: [1,2,3,4] | No | array |
+ 
 **Responses**
 
 | Code | Description |
@@ -796,18 +797,18 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-# PERMISSION
-## /PERMISSION/SCHEMA
+# RIGHT
+## /RIGHT/SCHEMA
 
 **Method:** GET
 
-**Summary:** {{url}}/api/permission/schema
+**Summary:** {{url}}/api/right/schema
 
 **Description:** API count
 
 
 **HTTP Request**
-`***GET*** /permission/schema` 
+`***GET*** /right/schema` 
 
 **Parameters**
 
@@ -822,15 +823,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/COUNT
+## /RIGHT/COUNT
 **Method:** GET
 
-**Summary:** {{url}}/api/permission/count
+**Summary:** {{url}}/api/right/count
 
 **Description:** API count
 
 **HTTP Request**
-`***GET*** /permission/count` 
+`***GET*** /right/count` 
 
 **Parameters**
 
@@ -845,15 +846,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/FIND
+## /RIGHT/FIND
 **Method:** GET
 
-**Summary:** {{url}}/api/permission/find
+**Summary:** {{url}}/api/right/find
 
 **Description:** API get list permission
 
 **HTTP Request**
-`***GET*** /permission/find` 
+`***GET*** /right/find` 
 
 **Parameters**
 
@@ -868,15 +869,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/FINDONE/1
+## /RIGHT/FINDONE/1
 **Method:** GET
 
-**Summary:** {{url}}/api/permission/findOne/1
+**Summary:** {{url}}/api/right/findOne/1
 
 **Description:** API detail rule
 
 **HTTP Request**
-`***GET*** /permission/findOne/1` 
+`***GET*** /right/findOne/1` 
 
 **Parameters**
 
@@ -891,15 +892,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/CREATE
+## /RIGHT/CREATE
 **Method:** POST
 
-**Summary:** {{url}}/api/permission/create
+**Summary:** {{url}}/api/right/create
 
 **Description:** API add rule
 
 **HTTP Request**
-`***POST*** /permission/create` 
+`***POST*** /right/create` 
 
 **Parameters**
 
@@ -924,15 +925,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/DESTROY/1
+## /RIGHT/DESTROY/1
 **Method:** DELETE
 
-**Summary:** {{url}}/api/permission/destroy/1
+**Summary:** {{url}}/api/right/destroy/1
 
 **Description:** API destroy
 
 **HTTP Request**
-`***DELETE*** /permission/destroy/1` 
+`***DELETE*** /right/destroy/1` 
 
 **Parameters**
 
@@ -947,15 +948,15 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
-## /PERMISSION/UPDATE/1
+## /RIGHT/UPDATE/1
 **Method:** PUT
 
-**Summary:** {{url}}/api/permission/update/1
+**Summary:** {{url}}/api/right/update/1
 
 **Description:** API update permission
 
 **HTTP Request**
-`***PUT*** /permission/update/1` 
+`***PUT*** /right/update/1` 
 
 **Parameters**
 
