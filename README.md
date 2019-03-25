@@ -623,6 +623,31 @@ GET /product/find?image.imageThumb=link
 | 200 | oke |
 
 # ROLE
+## /ROLE/listByParentId
+
+**Method:** GET
+
+**Summary:** {{url}}/api/role/listByParentId/2
+
+**Description:** API listByParentId
+
+
+**HTTP Request**
+`***GET*** /role/listByParentId/2` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 ## /ROLE/SCHEMA
 
 **Method:** GET
