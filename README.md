@@ -394,6 +394,30 @@ GET /product/find?image.imageThumb=link
 | ---- | ----------- |
 | 200 | oke |
 
+## /USER/FINDONE/1
+
+**Method:** GET
+
+**Summary:** {{url}}/api/user/findOne/1
+
+**Description:** API list detail User
+
+**HTTP Request**
+`***GET*** /user/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 ## /USER/CHANGEPASSWORD
 
 **Method:** POST 
