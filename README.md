@@ -2573,7 +2573,7 @@ slug: Thường là dạng tieu-de
 | rankings | body |  | No | object |
 | users | body |  | No | object |
 | image | body |  | No | object |
-| entity | body |  | No | object |
+| reward | body | Ex: [{"id": 6}, {"id": 5}, {"id": 4}] | No | object |
 | tracking | body |  | No | object |
 | cost | body |  | No | number |
 | paid | body |  | No | number |
