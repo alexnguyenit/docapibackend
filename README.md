@@ -1908,6 +1908,7 @@ alias: Thường là dạng tieu-de
 | score | body |  | No | number |
 | amount | body | Giá trị của nội dung nếu là voucher, coupon | No | number |
 | code | body |  | No | string |
+| quotar | body | default = 1 | No | number |
 | approved_at | body |  | No | date |
 | approver_id | body |  | No | number |
 
