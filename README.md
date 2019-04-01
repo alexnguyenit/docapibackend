@@ -1423,6 +1423,183 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | ---- | ----------- |
 | 200 | oke |
 
+# RANKING
+## /RANKING/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/ranking/schema
+
+**Description:** API count
+
+
+**HTTP Request**
+`***GET*** /ranking/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/ranking/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /ranking/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/ranking/find
+
+**Description:** API get list ranking
+
+**HTTP Request**
+`***GET*** /ranking/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/ranking/findOne/1
+
+**Description:** API detail ranking
+
+**HTTP Request**
+`***GET*** /ranking/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/ranking/create
+
+**Description:** API add ranking
+
+**HTTP Request**
+`***POST*** /ranking/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| parameter | body |  | No | object |
+| description | body |  | No | text |
+| category_id | body |  | No | number |
+| type | body |  | No | number |
+| level | body |  | No | number |
+| parent_id | body |  | No | number |
+| score | body |  | No | number |
+| brand_id | body |  | No | number |
+| status | body | 0 - Đang xóa  1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/ranking/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /ranking/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /RANKING/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/ranking/update/1
+
+**Description:** API update ranking
+
+**HTTP Request**
+`***PUT*** /ranking/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # BRAND
 ## /BRAND/SCHEMA
 **Method:** GET
