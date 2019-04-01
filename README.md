@@ -19,7 +19,7 @@ Table of contents
 1. [Product](#product)
 1. [Brand](#brand)
 1. [Partner](#partner)
-1. [Ranking](#rangking)
+1. [Ranking](#ranking)
 1. [Category](#category)
 1. [Article](#article)
 1. [Reward](#reward)
