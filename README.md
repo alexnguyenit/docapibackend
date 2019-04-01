@@ -18,6 +18,8 @@ Table of contents
 1. [Media](#media)
 1. [Product](#product)
 1. [Brand](#brand)
+1. [Partner](#partner)
+1. [Ranking](#rangking)
 1. [Category](#category)
 1. [Article](#article)
 1. [Reward](#reward)
@@ -1232,6 +1234,179 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 
 **HTTP Request**
 `***PUT*** /product/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+# PARTNER
+## /PARTNER/SCHEMA
+
+**Method:** GET
+
+**Summary:** {{url}}/api/partner/schema
+
+**Description:** API count
+
+
+**HTTP Request**
+`***GET*** /partner/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/partner/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /partner/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/partner/find
+
+**Description:** API get list partner
+
+**HTTP Request**
+`***GET*** /partner/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/FINDONE/1
+**Method:** GET
+
+**Summary:** {{url}}/api/partner/findOne/1
+
+**Description:** API detail partner
+
+**HTTP Request**
+`***GET*** /partner/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/partner/create
+
+**Description:** API add partner
+
+**HTTP Request**
+`***POST*** /partner/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| code | body |  | No | string |
+| name | body |  | Yes | string |
+| logo | body |  | No | any |
+| slug | body |  | No | string |
+| brand_id | body |  | No | number |
+| status | body | 0 - Đang xóa  1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/partner/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /partner/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /PARTNER/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/partner/update/1
+
+**Description:** API update partner
+
+**HTTP Request**
+`***PUT*** /partner/update/1` 
 
 **Parameters**
 
