@@ -1367,6 +1367,8 @@ Sử dụng data upload ảnh trả về để gửi lên, Không cần gửi so
 | logo | body |  | No | any |
 | slug | body |  | No | string |
 | brand_id | body |  | No | number |
+| preview | body | Mô tả ngắn về partner | No | text |
+| content | body | Giới thiệu partner | No | text |
 | status | body | 0 - Đang xóa  1 - Đang active | No | number |
 
 **Responses**
