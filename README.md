@@ -31,6 +31,7 @@ Table of contents
 1. [Campaign](#campaign)
 1. [Extension](#extension)
 1. [Exchange](#exchange)
+1. [Location](#location)
 
 # Tips
 ## STATUS CODE
@@ -3451,6 +3452,76 @@ Use source origin -> src when install extension
 
 **HTTP Request**
 `***GET*** /exchange/findOne/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+#LOCATION
+## /PROVINCE/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/province/find
+
+**Description:** API detail exchange
+
+**HTTP Request**
+`***GET*** /province/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /DISTRICT/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/district/find?province_id=01
+
+**Description:** API district
+
+**HTTP Request**
+`***GET*** /province/find?province_id=01` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /WARD/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/ward/find?district_id=001
+
+**Description:** API ward
+
+**HTTP Request**
+`***GET*** /ward/find?district_id=001` 
 
 **Parameters**
 
