@@ -2624,6 +2624,353 @@ slug: Thường là dạng tieu-de
 | ---- | ----------- |
 | 200 | oke |
 
+# CONDITION
+## /CONDITION/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/condition/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /condition/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/condition/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /condition/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/condition/find
+
+**Description:** API get list condition
+
+**HTTP Request**
+`***GET*** /condition/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/FINDONE/2
+**Method:** GET
+
+**Summary:** {{url}}/api/condition/findOne/1
+
+**Description:** API detail condition
+
+**HTTP Request**
+`***GET*** /condition/findOne/2` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/condition/create
+
+**Description:** API add condition
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /condition/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| scope | body |  | No | text |
+| start_at | body |  | No | string date |
+| end_at | body |  | No | string date |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/condition/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /condition/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /CONDITION/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/condition/update/1
+
+**Description:** API update condition
+
+**HTTP Request**
+`***PUT*** /condition/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+# FORMULA
+## /FORMULA/SCHEMA
+**Method:** GET
+
+**Summary:** {{url}}/api/formula/schema
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /formula/schema` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/COUNT
+**Method:** GET
+
+**Summary:** {{url}}/api/formula/count
+
+**Description:** API count
+
+**HTTP Request**
+`***GET*** /formula/count` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/FIND
+**Method:** GET
+
+**Summary:** {{url}}/api/formula/find
+
+**Description:** API get list formula
+
+**HTTP Request**
+`***GET*** /formula/find` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/FINDONE/2
+**Method:** GET
+
+**Summary:** {{url}}/api/formula/findOne/1
+
+**Description:** API detail formula
+
+**HTTP Request**
+`***GET*** /formula/findOne/2` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/CREATE
+**Method:** POST
+
+**Summary:** {{url}}/api/formula/create
+
+**Description:** API add formula
+
+slug: Thường là dạng tieu-de
+
+**HTTP Request**
+`***POST*** /formula/create` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| title | body |  | Yes | string |
+| description | body |  | No | text |
+| parameters | body |  | No | object |
+| condition_id | body |  | No | number |
+| version | body |  | No | string |
+| status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/DESTROY/1
+**Method:** DELETE
+
+**Summary:** {{url}}/api/formula/destroy/1
+
+**Description:** API destroy
+
+**HTTP Request**
+`***DELETE*** /formula/destroy/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
+## /FORMULA/UPDATE/1
+**Method:** PUT
+
+**Summary:** {{url}}/api/formula/update/1
+
+**Description:** API update formula
+
+**HTTP Request**
+`***PUT*** /formula/update/1` 
+
+**Parameters**
+
+| Name | Located in | Description | Required | Type |
+| ---- | ---------- | ----------- | -------- | ---- |
+| Content-Type | header |  | Yes | string |
+| x-scope | header |  | Yes | string |
+| Authorization | header |  | Yes | string |
+| Body | body |  | Yes |  |
+
+**Responses**
+
+| Code | Description |
+| ---- | ----------- |
+| 200 | oke |
+
 # CONFIG
 ## /CONFIG/SCHEMA
 **Method:** GET
