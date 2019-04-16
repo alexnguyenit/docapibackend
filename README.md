@@ -2266,6 +2266,7 @@ alias: Thường là dạng tieu-de
 | quotar | body | default = 1 | No | number |
 | approved_at | body |  | No | date |
 | approver_id | body |  | No | number |
+| payload | body | Loại voucher với: 2 là KH dùng điểm để mua và 1 là KH dùng thì bị trừ điểm | No | number |
 
 
 **Responses**
