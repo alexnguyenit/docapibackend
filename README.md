@@ -2743,6 +2743,7 @@ slug: Thường là dạng tieu-de
 | start_at | body |  | No | string date |
 | end_at | body |  | No | string date |
 | status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+| entity_id | body | Mã Id của bảng entity | No | number |
 
 **Responses**
 
@@ -2916,6 +2917,8 @@ slug: Thường là dạng tieu-de
 | condition_id | body |  | No | number |
 | version | body |  | No | string |
 | status | body | Trạng thái bài viết với: 0 - Đang xóa 1 - Đang active | No | number |
+| entity_id | body | Mã Id của bảng entity | No | number |
+
 
 **Responses**
 
