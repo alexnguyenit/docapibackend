@@ -2077,6 +2077,7 @@ slug: Thường là dạng tieu-de
 | evicted_at | body |  | No | date |
 | approved_at | body |  | No | date |
 | approver_id | body |  | No | number |
+| type | body | Kiểu bài viết với 0 là bản tin, 1 là thông báo, 2 là sự kiện | No | Number |
 
 **Responses**
 
